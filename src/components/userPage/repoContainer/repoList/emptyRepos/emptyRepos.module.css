@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  max-width: 243px;
+}
+.picture {
+  width: 76px;
+  margin-bottom: 47px;
+}
+@media (max-width: 768px) {
+  .picture {
+    margin-top: 43px;
+    margin-bottom: 23px;
+  }
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #808080;
+}

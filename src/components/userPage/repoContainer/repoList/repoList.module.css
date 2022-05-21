@@ -1,0 +1,26 @@
+.numRepos {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 29px;
+}
+
+@media (max-width: 425px) {
+  .numRepos {
+    font-size: 26px;
+  }
+}
+
+.repoContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  min-height: 544px;
+}
+
+@media (max-width: 768px) {
+  .repoContainer {
+    min-height: auto;
+  }
+}

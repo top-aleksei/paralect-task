@@ -1,0 +1,16 @@
+.app {
+  max-width: 1366px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+
+.body {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  min-height: calc(100vh - 72px);
+  justify-content: center;
+}

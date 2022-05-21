@@ -1,0 +1,17 @@
+.page {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.picture {
+  width: 65px;
+  height: 75px;
+  margin-bottom: 42px;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 31px;
+  color: #808080;
+}

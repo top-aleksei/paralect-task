@@ -1,0 +1,29 @@
+.repoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 32px;
+  gap: 16px;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  height: 112px;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #0064eb;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
